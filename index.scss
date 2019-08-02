@@ -1,16 +1,23 @@
+#mainNavbar {
+     
+}
+
 #landingPage {
-    background: #fff;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    margin-top: 0%;
+    background: #fcba03;
+    // background-attachment: fixed;
+    // background-size: cover;
+    // background-position: center;
+    height: 78vh;
     font-family: 'Raleway', sans-serif;
     width: 100%;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
     h1 {
-        margin-top: 20%;
         font-weight: 550;
         font-size: 4em;
     }
@@ -20,5 +27,7 @@
                  0px 8px 13px rgba(0, 0, 0, 0.1),
                  0px 18px 23px rgba(0, 0, 0, 0.1);
         width: 100%;
+        color: #fff;
+        text-align: center;
     }
 }
