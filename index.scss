@@ -1,12 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #mainNavbar {
      
 }
 
+.page-title {
+    margin: 10vh 0 10vh 0;
+    text-align: center;
+}
+
+.page-subtitle {
+    margin: 10vh 0 6vh 0;
+    text-align: start;
+}
+
 #landingPage {
     background: #fcba03;
-    // background-attachment: fixed;
-    // background-size: cover;
-    // background-position: center;
     height: 78vh;
     font-family: 'Raleway', sans-serif;
     width: 100%;
@@ -29,5 +40,17 @@
         width: 100%;
         color: #fff;
         text-align: center;
+    }
+}
+
+#methodPage {
+    h3 {
+        text-align: start;
+    }
+}
+
+#functionPage {
+    h3 {
+        text-align: start;
     }
 }
