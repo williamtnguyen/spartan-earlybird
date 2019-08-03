@@ -2,6 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
+#mainNavbar {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar.scrolled {
+  background: #323335;
+  -webkit-transition: background 500ms;
+  transition: background 500ms;
+}
+
 .page-title {
   margin: 10vh 0 10vh 0;
   text-align: center;
@@ -47,6 +57,13 @@ html {
 
 #methodPage h3 {
   text-align: start;
+}
+
+#methodPage .issue-icon {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
 }
 
 #functionPage h3 {

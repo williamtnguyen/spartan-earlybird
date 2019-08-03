@@ -3,7 +3,12 @@ html {
 }
 
 #mainNavbar {
-     
+   font-family: 'Raleway', sans-serif;  
+}
+
+.navbar.scrolled {
+    background: rgb(50, 51, 53);
+    transition: background 500ms;
 }
 
 .page-title {
@@ -46,6 +51,13 @@ html {
 #methodPage {
     h3 {
         text-align: start;
+    }
+
+    .issue-icon {
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        background: #f1f1f1;
     }
 }
 
