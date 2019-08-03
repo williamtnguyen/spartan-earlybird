@@ -58,8 +58,8 @@ html {
         text-align: center;
         #issue-block {
             display: inline-block;
-            width: 90px;
-            height: 90px;
+            width: 130px;
+            height: 130px;
             background: #f1f1f1;
             margin: 10px; 
             border-radius: 30%;
@@ -72,13 +72,13 @@ html {
             font-family: 'Raleway', sans-serif;
         }
         #issue-block i {
-            line-height: 90px;
-            font-size: 26px;
+            line-height: 130px;
+            font-size: 40px;
             transition: 0.2s linear;
         }
         #issue-block:hover i {
             transform: scale(1.3);
-            color: #f1f1f1;
+            color: #fcba03;
         }
         #issue-block::before{
             content: "";

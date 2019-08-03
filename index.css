@@ -65,8 +65,8 @@ html {
 
 #methodPage #issuesSection #issue-block {
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  width: 130px;
+  height: 130px;
   background: #f1f1f1;
   margin: 10px;
   border-radius: 30%;
@@ -82,8 +82,8 @@ html {
 }
 
 #methodPage #issuesSection #issue-block i {
-  line-height: 90px;
-  font-size: 26px;
+  line-height: 130px;
+  font-size: 40px;
   -webkit-transition: 0.2s linear;
   transition: 0.2s linear;
 }
@@ -91,7 +91,7 @@ html {
 #methodPage #issuesSection #issue-block:hover i {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
-  color: #f1f1f1;
+  color: #fcba03;
 }
 
 #methodPage #issuesSection #issue-block::before {
