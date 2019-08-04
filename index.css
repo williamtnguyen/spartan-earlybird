@@ -59,6 +59,14 @@ html {
   text-align: start;
 }
 
+#methodPage .fa-exclamation-circle {
+  color: red;
+}
+
+#methodPage .fa-lightbulb {
+  color: #fcba03;
+}
+
 #methodPage #issuesSection {
   text-align: center;
 }
