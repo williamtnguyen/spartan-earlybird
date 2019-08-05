@@ -10,7 +10,7 @@ html {
 }
 
 .navbar.scrolled {
-    background: $spartan-yellow;
+    background-color: $spartan-yellow;
     transition: background 500ms;
 }
 
@@ -117,10 +117,6 @@ html {
             }
         }
     }
-}
-
-#integrateSection {
-    
 }
 
 #functionPage {
