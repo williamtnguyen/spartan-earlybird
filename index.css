@@ -7,7 +7,7 @@ html {
 }
 
 .navbar.scrolled {
-  background: #323335;
+  background: #fcba03;
   -webkit-transition: background 500ms;
   transition: background 500ms;
 }
