@@ -24,7 +24,7 @@ html {
 
 #landingPage {
   background: #fcba03;
-  height: 90vh;
+  height: 100vh;
   font-family: 'Raleway', sans-serif;
   width: 100%;
   text-align: center;
@@ -69,6 +69,7 @@ html {
 
 #methodPage #issuesSection {
   text-align: center;
+  background-color: #fcba03;
 }
 
 #methodPage #issuesSection #issue-block {
