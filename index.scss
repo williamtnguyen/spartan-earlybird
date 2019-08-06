@@ -26,6 +26,7 @@ html {
 }
 
 .page-subtitle {
+    font-family: 'Raleway', sans-serif;
     margin: 10vh 0 6vh 0;
     text-align: start;
 }
@@ -128,5 +129,8 @@ html {
 #functionPage {
     h3 {
         text-align: start;
+    }
+    h4 {
+        font-family: 'Raleway', sans-serif;
     }
 }
