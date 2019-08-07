@@ -66,7 +66,7 @@ html {
   text-align: start;
 }
 
-#methodPage .fa-exclamation-circle {
+#methodPage .fa-exclamation {
   color: red;
 }
 
@@ -164,5 +164,41 @@ html {
 
 #functionPage h4 {
   font-family: 'Raleway', sans-serif;
+}
+
+#functionPage #percentSection .col-10 .chart {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+}
+
+#functionPage #percentSection .col-10 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* F00ter */
+#datFooter {
+  font-family: 'Raleway', sans-serif;
+  background: #fcba03;
+  color: #ffffff;
+}
+
+#datFooter #footerIcons i {
+  letter-spacing: 0.5em;
+  margin-bottom: 1em;
+  color: #ffffff;
+}
+
+#datFooter #footerIcons i:hover {
+  color: #fcba03;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 /*# sourceMappingURL=index.css.map */

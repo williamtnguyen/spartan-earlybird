@@ -63,9 +63,9 @@
         <h1 class="display-4 page-title">methodology</h1>
         <!-- "the problem" -->
         <div id="problemSection">
-            <h3 class="page-subtitle"><i><i class="fas fa-exclamation-circle"></i> The Problem:</i></h3>
+            <h3 class="page-subtitle"><i> <i class="fas fa-exclamation"></i> The Problem</i></h3>
             <div class="row justify-content-center">
-                <div class="col-md-6">
+                <div class="col-md-7">
                     <p>
                         San Jose State University is currently in a <strong>perpetual parking crisis</strong>, that of
                         which brings
@@ -113,7 +113,7 @@
         </div>
         <!-- "the solution" -->
         <div id="solutionsSection">
-            <h3 class="page-subtitle"><i><i class="fas fa-lightbulb"></i> The Solution:</i></h3>
+            <h3 class="page-subtitle"><i><i class="fas fa-lightbulb"></i> The Solution</i></h3>
             <div class="row justify-content-center">
                 <div class="col-md-4 pb-5 pb-md-2">
                     <div class="row align-items-start">
@@ -185,7 +185,7 @@
         <div id="flowChartSection" class="container-fluid px-0">
             <h3 class="page-subtitle"><i>Information Architecture:</i></h3>
             <div class="row justify-content-center">
-                <div class="col-md-10">
+                <div class="col-md-8">
                     <img src="./img/protoflow.png" alt="" class="img-fluid margin-top-0">
                 </div>
                 <p class="pt-5 pl-2 pl-md-0"><strong>Spartan Earlybird</strong> follows the logical progression
@@ -198,7 +198,7 @@
         <div id="userFlowSection" class="containter-fluid">
             <h3 class="page-subtitle"><i>Prototype User Flows:</i></h3>
             <div class="row justify-content-around">
-                <div class="col-md-3">
+                <div class="col-md-3 mb-5 mb-md-0">
                     <img src="./img/iphone8.png" alt="" class="img-fluid margin-top-0">
                     <h4 class="text-center pt-4">driver</h4>
                 </div>
@@ -207,15 +207,49 @@
                     <h4 class="text-center pt-4">passenger</h4>
                 </div>
             </div>
-
         </div>
+        <!-- cost/benefit results -->
+        <div id="percentSection" class="container mb-5">
+            <h3 class="page-subtitle"><i>Sustainability Improvement Projections for SJSU</i></h3>
+            <p>Upon the integration of <strong>Spartan Earlybird,</strong> we can expect...</p>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-6 mb-5 mb-md-0">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <div class="chart mb-3" data-percent="40" data-scale-color="#ffb400"><strong>40%</strong></div>
+                            <p class="text-center">Reductions in <strong>commute times</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="row justify-content-center">
+                        <div class="col-10">
+                            <div class="chart mb-3" data-percent="38" data-scale-color="#ffb400"><strong>38%</strong></div>
+                            <p class="text-center">Reductions in <strong>greenhouse gasemissions</strong></p>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- F00ter -->
+    <footer id="datFooter" class="border-top">
+        <div class="container-fluid text-center">
+            <p class="pt-2 mb-1"><strong>Spartan Earlybird &copy; 2019</strong></p>
+            <div id="footerIcons">
+                <a href=""><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter-square"></i></a>
+                <a href=""><i class="fab fa-app-store-ios"></i></a>
+            </div>
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -223,6 +257,18 @@
         crossorigin="anonymous"></script>
     <!-- custom js aha javascript0 -->
     <script src="script.js"></script>
+    <!-- EASY PIE CHART JQUERY PLUGIN -->
+    <script src="jquery.easypiechart.js"></script>
+    <script>
+        $(function () {
+            $('.chart').easyPieChart({
+                size: 200,
+                barColor: '#3498db',
+                scaleColor: false,
+                lineWidth: 10,
+            });
+        });
+    </script>
 </body>
 
 </html>

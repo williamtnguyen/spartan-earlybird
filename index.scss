@@ -1,5 +1,6 @@
 //variables
 $spartan-yellow: #fcba03;
+$spartan-blue: #3498db;
 
 html {
     scroll-behavior: smooth;
@@ -63,7 +64,7 @@ html {
         text-align: start;
     }
 
-    .fa-exclamation-circle {
+    .fa-exclamation {
         color: red;
     }
     .fa-lightbulb {
@@ -80,7 +81,7 @@ html {
             margin: 10px; 
             border-radius: 30%;
             box-shadow: 0 5px 15px -5px #00000070;
-            color: #3498db;
+            color: $spartan-blue;
             overflow: hidden;
             position: relative;            
         }
@@ -101,7 +102,7 @@ html {
             position: absolute;
             width: 120%;
             height: 120%;
-            background: #3498db;
+            background: $spartan-blue;
             transform: rotate(45deg);
             left: -110%;
             top: 90%;
@@ -133,4 +134,41 @@ html {
     h4 {
         font-family: 'Raleway', sans-serif;
     }
+    #percentSection {
+        .col-10 {
+            .chart {
+                font-family: 'Raleway', sans-serif;
+                position: relative;
+                width: 200px;
+                height: 200px;
+                margin: 0 auto;
+                text-align: center;
+                font-size: 50px;
+                line-height: 200px;
+            }
+            canvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
 }
+
+/* F00ter */
+#datFooter {
+    font-family: 'Raleway', sans-serif;
+    background: $spartan-yellow;
+    color: #ffffff;
+    #footerIcons i {
+        letter-spacing: 0.5em;
+        margin-bottom: 1em;
+        color: #ffffff;
+    }
+    #footerIcons i:hover {
+        color: $spartan-yellow;
+        transition: .3s ease-in-out;
+    }
+}
+
+
